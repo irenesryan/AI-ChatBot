@@ -1,0 +1,31 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.result-box {
+  margin: 0px;
+  margin-bottom: 0;
+  padding: 05px;
+  width: 200px;
+  border: 1px solid #0078d4;
+  background-color: #f3f2f1;
+  color: #323130;
+  font-size: 16px;
+  /* font-weight: bold; */
+  border-radius: 5px;
+}
+
+.df-messenger {
+  z-index: 999;
+  position: fixed;
+  --df-messenger-font-color: #000;
+  --df-messenger-font-family: Google Sans;
+  --df-messenger-chat-background: #f3f6fc;
+  --df-messenger-message-user-background: #d3e3fd;
+  --df-messenger-message-bot-background: #fff;
+  bottom: 16px;
+  right: 16px;
+}
